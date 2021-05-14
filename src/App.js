@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import Header from './header/Header';
 
 function App() {
   return (
@@ -8,9 +9,11 @@ function App() {
       <h1>Hello Programmer</h1>
 
       {/* Header */}
+      <Header/>
+
       {/* Slidebar */}
       {/* RecommendedVideos */}
-      
+
     </div>
   );
 }
