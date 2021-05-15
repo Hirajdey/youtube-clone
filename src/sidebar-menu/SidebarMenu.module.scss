@@ -1,0 +1,29 @@
+.main{  
+    display: flex;
+    // justify-content: space-between;
+    padding:10px 10px;
+    margin-bottom:10px;
+    cursor: pointer;
+    span{
+        display: inline-block;
+        &:nth-child(1){
+            width: 20px;
+            margin-right:30px;
+            opacity: 0.6;
+        }
+    }
+    &:hover{
+        background-color: rgba(0,0,0,0.2);
+    }
+    &:hover .icon{
+        color:red;
+        opacity: 1;
+    }
+
+    &.selected{
+        background-color: rgba(0,0,0,0.2);
+        .icon{
+            color: red;
+        }
+    }
+}

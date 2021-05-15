@@ -1,0 +1,14 @@
+.imageBox{
+    img{
+        width: 100%;
+    }
+}
+
+.info{
+    display:flex;
+    flex-direction: row;
+    margin-top:5px;
+    .text{
+        padding-left: 10px;
+    }
+}

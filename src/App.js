@@ -1,18 +1,25 @@
 // import logo from './logo.svg';
-import './App.css';
+import Styles from './App.module.scss';
 import Header from './header/Header';
+import RecommendedVideos from './recommended-videos/RecommendedVideos';
+import Sidebar from './sidebar/Sidebar';
 
 function App() {
   return (
     // BEM class naming convention 
-    <div className="app">
-      <h1>Hello Programmer</h1>
+    <div className={Styles.main}>
 
-      {/* Header */}
       <Header/>
 
-      {/* Slidebar */}
-      {/* RecommendedVideos */}
+      <div className={Styles.pageLayout}>
+        <div className={Styles.left}>
+          <Sidebar/>
+        </div>
+        <div className={Styles.right}> 
+          <RecommendedVideos/>
+        </div>
+      </div>
+      
 
     </div>
   );

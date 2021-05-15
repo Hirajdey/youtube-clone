@@ -1,0 +1,12 @@
+.pageLayout{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 30px;
+    .left{
+        width: 20%;
+    }
+    .right{
+        width: 80%;
+    }
+}
+
