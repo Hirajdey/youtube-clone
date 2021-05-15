@@ -1,0 +1,21 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    margin:15px 0;
+    .imgCol{
+        max-width:370px;
+        img{
+            width: 100%;
+        }
+    }
+    .text{
+        margin-left:20px;
+        h3{
+          margin-bottom: 15px;  
+          font-size: 22px;
+        }
+        h5{
+            margin-bottom:5px;
+        }
+    }
+}
